@@ -89,7 +89,7 @@
                         
                         $apex = explode(" ", $apex[array_key_first($apex)]);
                         
-                        if(count($apex) == 2) {
+                        if(count($apex) >= 2) {
                             array_push($xApexes, (int)$apex[0]);
                             array_push($yApexes, (int)$apex[1]);
                         } else {
